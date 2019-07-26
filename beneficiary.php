@@ -29,8 +29,8 @@
     <div class="search-bar-wrapper">
         <div class="search-bar" id="the-search-bar">
             <div class="flex-item-search-bar" id="fi-search-bar">
-                <a class="add-button" href="/online-banking/add_beneficiary.php">Add</a>
-
+                <a class="add-button" href="add_beneficiary.php">Add</a>
+              
                 <form class="search_form" action="" method="post">
                     <div class="flex-item-search">
                         <input name="search" size="30" type="text" placeholder="Search Beneficiaries..." />
@@ -111,8 +111,8 @@
                               <button onclick="dropdown_func(<?php echo $i ?>)" class="dropbtn"></button>
                               <div id="dropdown<?php echo $i ?>" class="dropdown-content">
                                 <!--Pass the customer trans_id as a get variable in the link-->
-                                <a href="/online-banking/send_funds.php?cust_id=<?php echo $row1["cust_id"] ?>">Send</a>
-                                <a href="/online-banking/delete_beneficiary.php?cust_id=<?php echo $row1["cust_id"] ?>"
+                                <a href="send_funds.php?cust_id=<?php echo $row1["cust_id"] ?>">Send</a>
+                                <a href="delete_beneficiary.php?cust_id=<?php echo $row1["cust_id"] ?>"
                                      onclick="return confirm('Are you sure?')">Delete</a>
                               </div>
                             </div>

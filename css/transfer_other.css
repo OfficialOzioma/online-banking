@@ -1,0 +1,67 @@
+.headTitle h2{
+   font-size: 25pt;
+   margin-left: 20%;
+}
+.form-input-text{
+   margin-left: 20%;
+   margin-top: 3%;
+}
+
+.form-input-text label{
+    font-size: 17pt;
+    margin-right: 1%;
+}
+.form-input-text input[type = 'text']{
+    padding: 1% 1%;
+    font-size: 17pt;
+    text-transform: capitalize;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 1px solid black;
+    background-color: #FAFAFA;
+    width: 70%;
+}
+.desc{
+    font-size: 17pt;
+    padding: 1%;
+    text-transform: capitalize;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 1px solid black;
+    background-color: #FAFAFA;
+}
+.back{
+    font-size: 20pt;
+    background-color: #17a2b8;
+    border: 0px #17a2b8;
+    border-radius: 7px;
+    padding: 1%;
+    margin-bottom: 5%;
+    margin-right: 2%;
+    color: #FAFAFA;
+}
+.back a{
+    text-decoration: none;
+    color: #FAFAFA;
+}
+.btn{
+    font-size: 20pt;
+    background-color: #28a745;
+    border: 0px #28a745;
+    border-radius: 7px;
+    padding: 1%;
+    margin-bottom: 5%;
+    margin-right: 2%;
+    color: #FAFAFA;
+}
+.reset{
+    font-size: 20pt;
+    background-color: #f3071f;
+    border: 0px #dc3545;
+    border-radius: 7px;
+    padding: 1%;
+    margin-bottom: 5%;
+    color: #FAFAFA;
+}

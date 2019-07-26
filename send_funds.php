@@ -45,7 +45,7 @@
 
         <div class="flex-container">
             <div class=container>
-                <label>Enter Amount (in INR) :</label><br>
+                <label>Enter Amount:</label><br>
                 <input name="amt" size="24" type="text" required />
             </div>
         </div>
@@ -59,7 +59,7 @@
 
         <div class="flex-container">
             <div class="container">
-                <a href="/beneficiary.php" class="button">Go Back</a>
+                <a href="beneficiary.php" class="button">Go Back</a>
             </div>
 
             <div class="container">

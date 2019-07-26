@@ -12,7 +12,8 @@
         <a href="customer_home.php">Home</a>
         <a href="customer_transactions.php">My Transactions</a>
         <a id="label">Send/Recieve</a>
-        <a href="beneficiary.php">Transfer Funds</a>
+        <a href="beneficiary.php">Transfer To Beneficiaries</a>
+        <a href="transfer_others.php">Transfer To Others</a>
         <a href="atm_simulator.php">ATM Simulator</a>
         <a id="label">Contact Us</a>
         <a href="#">Submit Griveance</a>

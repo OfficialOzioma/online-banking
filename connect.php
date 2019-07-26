@@ -1,4 +1,5 @@
 <?php
+ob_start();
 $servername = "localhost";
 // Enter your MySQL username below(default=root)
 $username = "root";

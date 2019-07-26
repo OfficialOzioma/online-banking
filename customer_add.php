@@ -3,7 +3,7 @@
     include "header.php";
     include "user_navbar.php";
     include "admin_sidebar.php";
-    include "session_timeout.php";
+    include "admin_session_timeout.php";
 ?>
 
 <!DOCTYPE html>
@@ -18,6 +18,7 @@
         <div class="flex-container-form_header">
             <h1 id="form_header">Please fill in the following details . . .</h1>
         </div>
+        
 
         <div class="flex-container">
             <div class=container>
@@ -130,7 +131,7 @@
             <div class="container">
                 <button type="submit">Submit</button>
             </div>
-
+          
             <div class="container">
                 <button type="reset" class="reset" onclick="return confirmReset();">Reset</button>
             </div>

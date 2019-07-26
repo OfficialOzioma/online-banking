@@ -4,7 +4,7 @@
     include "header.php";
     include "user_navbar.php";
     include "admin_sidebar.php";
-    include "session_timeout.php";
+    include "admin_session_timeout.php";
 
     if (isset($_POST['submit'])) {
         $back_button = TRUE;

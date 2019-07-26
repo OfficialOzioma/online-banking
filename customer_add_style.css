@@ -212,3 +212,16 @@ button:hover, .button:hover {
     width: auto;
     background-color: #f44336;
 }
+
+.picture_div{
+    margin-left: 10px;
+}
+.picture_inner_div{
+    border: #212121 solid 5px;
+    width: 34%;
+    height: 100%;
+    padding: 10px;
+}
+.picture_inner_div img{
+    margin-left: 10%;
+}

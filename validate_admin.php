@@ -6,6 +6,6 @@
     }
 
     if(!isset($_SESSION['isAdminValid'])){
-        header("location:home.php");
+        header("location:admin_login.php");
     }
 ?>

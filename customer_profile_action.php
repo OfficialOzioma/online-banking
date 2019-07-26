@@ -19,7 +19,7 @@
     $sql0 = "UPDATE customer SET email = '$email',
                                  address = '$address',
                                  uname = '$cus_uname'
-                            WHERE cust_id=".$_SESSION['loggedIn_cust_id'];;
+                            WHERE cust_id=".$_SESSION['loggedIn_cust_id'];
 ?>
 
 <!DOCTYPE html>
