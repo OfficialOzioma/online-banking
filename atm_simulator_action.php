@@ -1,14 +1,22 @@
 <?php
-    include "validate_customer.php";
+    include "validate_admin.php";
+    include "connect.php";
     include "header.php";
-    include "customer_navbar.php";
-    include "customer_sidebar.php";
-    include "session_timeout.php";
+    include "user_navbar.php";
+    include "admin_sidebar.php";
+    include "admin_session_timeout.php";
 
-    $id = $_SESSION['loggedIn_cust_id'];
+   // $id = $_SESSION['loggedIn_cust_id'];
+    $user = mysqli_real_escape_string($conn, $_POST["username"]);
     $amt = mysqli_real_escape_string($conn, $_POST["amt"]);
     $type = mysqli_real_escape_string($conn, $_POST["type"]);
     $pin = mysqli_real_escape_string($conn, $_POST["pin"]);
+
+    $sql = "SELECT * FROM customer WHERE uname='$user'";
+    $result0 = $conn->query($sql);
+    $row0 = $result0->fetch_assoc();
+    $id = $row0["cust_id"];
+
 
     $sql0 = "SELECT balance FROM passbook".$id." ORDER BY trans_id DESC LIMIT 1";
     $result = $conn->query($sql0);

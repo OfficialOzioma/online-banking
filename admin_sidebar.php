@@ -14,6 +14,8 @@
         <a href="manage_customers.php">Manage Customers</a>
         <a href="uploadpic.php"> Add customer passport </a>
         <a href="manage_customers.php">Manage Customers</a>
+        <a href="view_customer_passport.php">View Passport</a>
+        <a href="atm_simulator.php">ATM Simulator</a>
         <a href="#h">Customer Griveances</a>
         <a id="label">Information</a>
         <a href="add_messages.php">Add Message</a>

@@ -16,7 +16,7 @@ body {
 }
 
 .flex-item-header {
-    width: auto;
+    width: 30%;
     height: 100px;
     margin: 10px;
 }
@@ -46,4 +46,9 @@ h1 {
       margin-top: calc((1.5rem - 2rem) + 1.5rem);
       margin-bottom: 1.5rem;
   }
+  .flex-item-header {
+    width: auto;
+    height: 100px;
+    margin: 10px;
+}
 }

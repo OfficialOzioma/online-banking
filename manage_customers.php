@@ -91,9 +91,9 @@
                           <button onclick="dropdown_func(<?php echo $i ?>)" class="dropbtn"></button>
                           <div id="dropdown<?php echo $i ?>" class="dropdown-content">
                             <!--Pass the customer trans_id as a get variable in the link-->
-                            <a href="/online-banking/edit_customer.php?cust_id=<?php echo $row["cust_id"] ?>">View / Edit</a>
-                            <a href="/online-banking/transactions.php?cust_id=<?php echo $row["cust_id"] ?>">Transactions</a>
-                            <a href="/online-banking/delete_customer.php?cust_id=<?php echo $row["cust_id"] ?>"
+                            <a href="/banking/edit_customer.php?cust_id=<?php echo $row["cust_id"] ?>">View / Edit</a>
+                            <a href="/banking/transactions.php?cust_id=<?php echo $row["cust_id"] ?>">Transactions</a>
+                            <a href="/banking/delete_customer.php?cust_id=<?php echo $row["cust_id"] ?>"
                                  onclick="return confirm('Are you sure?')">Delete</a>
                           </div>
                         </div>

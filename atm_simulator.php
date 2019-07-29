@@ -1,9 +1,10 @@
 <?php
-    include "validate_customer.php";
-    include "header.php";
-    include "customer_navbar.php";
-    include "customer_sidebar.php";
-    include "session_timeout.php";
+        include "validate_admin.php";
+        include "connect.php";
+        include "header.php";
+        include "user_navbar.php";
+        include "admin_sidebar.php";
+        include "admin_session_timeout.php";
 ?>
 
 <!DOCTYPE html>
@@ -21,11 +22,16 @@
 
         <div class="flex-container">
             <div class=container>
+                <label>Enter username :</label><br>
+                <input name="username" size="24" type="text" required />
+            </div>
+        </div>
+        <div class="flex-container">
+            <div class=container>
                 <label>Enter Amount (in INR) :</label><br>
                 <input name="amt" size="24" type="text" required />
             </div>
         </div>
-
         <div class="flex-container">
             <div class=container>
                 <label>Type :</label>
@@ -66,6 +72,6 @@
         return confirm('Do you really want to reset?')
     }
     </script>
-
+ 
 </body>
 </html>

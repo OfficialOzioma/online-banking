@@ -14,7 +14,15 @@
 </head>
 <body>
     <?php 
-        $sql = "SELECT * FROM messages";
+        $id = $_SESSION['loggedIn_cust_id'];
+
+        $sql0 = "SELECT * FROM customer WHERE cust_id=".$id;
+        $result0 = $conn->query($sql0);
+        $row0 = $result0->fetch_assoc();
+
+        $user = $row0['uname'];
+
+        $sql = "SELECT * FROM messages WHERE username = '$user'";
 
         $result = $conn->query($sql);
 
